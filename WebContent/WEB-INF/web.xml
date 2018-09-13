@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>MH_Accessories</display-name>
+  <servlet>
+    <servlet-name>Servlet1</servlet-name>
+    <servlet-class>com.something.Response</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/Shop</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>purchase</servlet-name>
+  <servlet-class>com.something.purchase_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>purchase</servlet-name>
+  <url-pattern>/BuyNow</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+    <param-name>DbObject</param-name>
+    <param-value>jdbc:mysql://localhost:3306/product</param-value>
+  </context-param>
+  <listener>
+    <listener-class>com.data.listen.Con_Listener</listener-class>
+  </listener>
+  <context-param>
+    <param-name>DbUser</param-name>
+    <param-value>root</param-value>
+  </context-param>
+  <context-param>
+    <param-name>DbPass</param-name>
+    <param-value>hanzala12</param-value>
+  </context-param>
+</web-app>

@@ -1,0 +1,185 @@
+@charset "ISO-8859-1";
+
+
+.header{
+	height:80px;
+	background-color:black;
+	
+	 margin:-7px -5px 0px -10px;
+	 
+}
+.header a{
+
+
+
+	float:right;
+	text-align:centre;
+	color:white;
+	
+	padding:35px 20px 20px 20px;
+	
+font-size:20px;
+text-decoration:none;
+}
+.header a:hover,#active {
+	background-color:#0387e9;
+}
+
+
+
+
+
+.above_fold {
+	border:5px;
+	border-color:white;
+	
+	
+	margin-left:-10px;
+	margin-right:-5px;
+height:500px;
+
+background-color:#f8f8f8;
+/*	background-image:url("images/back2.jpg");*/
+	background-repeat:no-repeat;
+	background-position:center;
+
+  background-size: cover;
+  
+}
+#heading{
+	
+color:#0387e9;
+text-align:center;	
+
+font:50px "Lucida Sans Unicoded";
+
+} 
+.primary_action {
+float:right;
+
+
+margin-top:50px;
+
+
+
+height:300px;width:500px;
+
+}
+.primary_action h1{
+	color:#0387e9;
+	 font-family: "MS Sans Serif", Times, serif;
+text-decoration:bold;
+	
+	font: bold 42px "MS Sans Serif", Times, serif;
+	
+	
+	
+}
+.primary_action h3{
+	color:#000000;
+	font-family:Candara;
+	font-size:22px;
+	
+	
+}
+.above_fold img{
+	height:400px;
+	width:600px;
+	margin-top:50px;
+	
+}
+.primary_action a{
+	margin-right:3px;
+	float:middle;
+	color:white;
+	font-family:Calibri;
+	border:2px solid black;
+	font-size:30px;
+	padding:5px;
+	text-decoration:none;
+	
+	background-color:#0387e9;
+}
+.primary_action a:hover{
+	
+	background-color:#026fbf;
+	
+	
+}
+.benifit{
+	
+	width:540px;
+	margin:0px  30px;
+	float:left;
+	
+	
+	
+}
+.benifit fieldset{
+	background-color:#f3f3f3;
+	
+}
+.left{
+	margin-top:498px;
+	
+	
+}
+.benifit p{
+	font-size:28px;
+	text-align:center;
+	
+}
+.benifit img{
+	width:100%;
+	height:350px;
+	
+	
+	margin:0px;
+	
+}
+.benifit h2{
+	
+	color:#0387e9;
+font-size:40px;
+text-align:center;
+}
+
+.header img{
+
+
+margin-left:40px;
+	height:100%;
+	
+}
+
+.footer{
+	margin-left:30x;
+	clear:both;
+	width:100%;
+	height:400px;
+	position:relative;
+	top:40px;
+
+
+color:white;
+	background-color:black;
+	
+	}
+
+.footer1 h2{
+	color:#0387e9;
+	font-size:30px;
+}
+.footer2{
+	padding-left:10px;
+	float:left;
+	margin-left:20px;
+	
+	width:300px;
+}
+.footer2 p,a{
+	
+font-size:18px;	
+	
+}
+	
